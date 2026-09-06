@@ -699,9 +699,8 @@
                 <a href="#features" class="nav-link">Features</a>
                 <a href="#pricing" class="nav-link">Pricing</a>
                 <a href="https://github.com/warmpondwater/phanuel/blob/main/Phanuel.md" class="nav-link" target="_blank" rel="noopener">Docs</a>
-                <a href="https://www.creem.io/stores/warmpondwater" class="btn-nav-store" target="_blank" rel="noopener">
-                    <span>Creem Store</span>
-                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17l9.2-9.2M17 17V7H7"/></svg>
+                <a href="#pricing" class="btn-nav-store">
+                    <span>Store Coming Soon</span>
                 </a>
             </div>
         </div>
@@ -733,17 +732,17 @@
             </div>
 
             <div class="hero-cta-group">
-                <a href="https://www.creem.io/stores/warmpondwater" class="btn-primary" target="_blank" rel="noopener">
-                    <span>Get Pro / Fleet License</span>
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17l9.2-9.2M17 17V7H7"/></svg>
+                <a href="#install" class="btn-primary">
+                    <span>Install Phanuel Core (Free)</span>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
                 </a>
                 <a href="#pricing" class="btn-secondary">
-                    <span>View Editions (€0 – €5/mo)</span>
+                    <span>Commercial Tiers (Coming Soon)</span>
                 </a>
             </div>
 
             <!-- Terminal Box -->
-            <div class="terminal-box">
+            <div class="terminal-box" id="install">
                 <div class="terminal-header">
                     <div class="terminal-dots">
                         <div class="terminal-dot dot-red"></div>
@@ -868,7 +867,7 @@
             <div class="section-header">
                 <div class="section-tag">Licensing & Editions</div>
                 <h2 class="section-title">Single Unified Binary. Instant Activation.</h2>
-                <p class="section-desc">No separate enterprise downloads. Activate commercial features on your existing binary in 1 second via Creem.</p>
+                <p class="section-desc">Phanuel Core is 100% free and open-source. Commercial Pro and Fleet tiers via Creem are coming soon.</p>
             </div>
 
             <div class="pricing-grid">
@@ -887,12 +886,12 @@
                             <li class="plan-feature-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Apache License 2.0</li>
                         </ul>
                     </div>
-                    <a href="https://github.com/warmpondwater/phanuel" class="btn-secondary" style="width: 100%; text-align: center;" target="_blank" rel="noopener">Install Free Core</a>
+                    <a href="#install" class="btn-secondary" style="width: 100%; text-align: center;">Install Free Core</a>
                 </div>
 
                 <!-- Pro Tier -->
                 <div class="pricing-card featured">
-                    <div class="card-badge">Most Popular</div>
+                    <div class="card-badge">Coming Soon</div>
                     <div>
                         <div class="plan-name">Phanuel Pro</div>
                         <div class="plan-desc">For professional engineers & high-velocity agent builders.</div>
@@ -907,11 +906,12 @@
                             <li class="plan-feature-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Cryptographic Audit Certification</li>
                         </ul>
                     </div>
-                    <a href="https://www.creem.io/stores/warmpondwater" class="btn-primary" style="width: 100%; text-align: center;" target="_blank" rel="noopener">Buy Pro License</a>
+                    <button class="btn-primary" style="width: 100%; text-align: center; opacity: 0.85; cursor: default;" disabled>Coming Soon on Creem</button>
                 </div>
 
                 <!-- Fleet Tier -->
                 <div class="pricing-card">
+                    <div class="card-badge" style="background: var(--bg-surface-3); color: var(--text-muted);">Coming Soon</div>
                     <div>
                         <div class="plan-name">10-Seat Fleet</div>
                         <div class="plan-desc">For engineering teams, defense squads & organizations.</div>
@@ -924,7 +924,7 @@
                             <li class="plan-feature-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Priority MoR Technical Support</li>
                         </ul>
                     </div>
-                    <a href="https://www.creem.io/stores/warmpondwater" class="btn-secondary" style="width: 100%; text-align: center;" target="_blank" rel="noopener">Buy Fleet (10 Seats)</a>
+                    <button class="btn-secondary" style="width: 100%; text-align: center; opacity: 0.85; cursor: default;" disabled>Coming Soon on Creem</button>
                 </div>
             </div>
         </section>
@@ -942,7 +942,7 @@
                 </div>
                 <div class="faq-item">
                     <h4>How do I upgrade to Pro or Fleet?</h4>
-                    <p>Phanuel uses a single unified binary. After purchasing on Creem, run <code>phanuel activate &lt;KEY&gt;</code> to bind your machine, or export <code>PHANUEL_LICENSE_KEY</code> in CI/CD. No re-download required.</p>
+                    <p>Phanuel uses a single unified binary. Commercial licenses will be available shortly on Creem. Once launched, run <code>phanuel activate &lt;KEY&gt;</code> to bind your machine, or export <code>PHANUEL_LICENSE_KEY</code> in CI/CD. No re-download required.</p>
                 </div>
                 <div class="faq-item">
                     <h4>How does Phanuel connect to AI coding agents?</h4>
@@ -962,7 +962,7 @@
             <div class="footer-links">
                 <a href="https://github.com/warmpondwater/phanuel" target="_blank" rel="noopener">GitHub</a>
                 <a href="https://github.com/warmpondwater/phanuel/blob/main/Phanuel.md" target="_blank" rel="noopener">User Manual</a>
-                <a href="https://www.creem.io/stores/warmpondwater" target="_blank" rel="noopener">License Store (Creem)</a>
+                <span style="color: var(--text-dim);">Creem Store (Coming Soon)</span>
             </div>
             <p>© Warm Pond Water. Hardware-grade developer substrates. 100% local loopback shield.</p>
         </div>
