@@ -16,7 +16,9 @@
     <meta property="og:url" content="https://warmpondwater.com/">
     <meta property="og:title" content="Phanuel — The Compiler Ground-Truth Substrate for AI Agents">
     <meta property="og:description" content="Stop coding in the dark. 2ms SQLite AST knowledge graphs, shadow mutation sandboxes, and pre-merge CI/CD invariant firewalls for autonomous AI coding agents.">
+    <meta property="og:image" content="https://warmpondwater.com/wpw.png">
     <meta property="twitter:card" content="summary_large_image">
+    <link rel="icon" type="image/png" href="wpw.png">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -109,18 +111,12 @@
         }
 
         .brand-badge {
-            width: 32px;
-            height: 32px;
+            width: 36px;
+            height: 36px;
             border-radius: var(--radius-sm);
-            background: linear-gradient(135deg, #00e5ff 0%, #0077ff 100%);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-family: var(--font-mono);
-            font-size: 0.82rem;
-            font-weight: 800;
-            color: #07090e;
-            box-shadow: 0 0 16px rgba(0, 229, 255, 0.35);
+            object-fit: contain;
+            display: block;
+            box-shadow: 0 0 16px rgba(0, 229, 255, 0.25);
         }
 
         .brand-name {
@@ -689,7 +685,7 @@
     <header>
         <div class="container nav-wrap">
             <a href="/" class="brand">
-                <div class="brand-badge">WPW</div>
+                <img src="wpw.png" alt="Warm Pond Water" class="brand-badge" width="36" height="36">
                 <div>
                     <div class="brand-name">Phanuel</div>
                     <div class="brand-sub">by Warm Pond Water</div>
